@@ -412,6 +412,20 @@ nav ul .fa-x {
 .copyright{
     font-size: 14px;
 }
+.work {
+    width: 100%; /* Adjust to occupy full width */
+    height: auto; /* Adjust to maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+
+  .work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+}
+}
 
 }
 #msg{
