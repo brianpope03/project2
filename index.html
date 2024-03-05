@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/2ea6e7d911.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="menu-container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li class="nav-item"><a href="#header">Home</a></li>
+                    <li class="nav-item"><a href="#about">About Me</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Brian Pope</span><br> from Hampton Roads</h1>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--------about----------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="coolhokieb.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Brian Pope, I am a Software Engineer for the Department of Defense. I obtained my Bachelors of Science Degree in Business Information Technology from Virginia Polytechnic Institute in the Fall Semester of 2023. Besides coding, some of my other hobbies include Scuba Diving, Playing bass guitar, and Traveling.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                            <li><span>Web Development</span><br> Full-Stack Responsive Software Applications</li>
+                            <li><span>Cloud Computation</span><br>Deploying and managing apps via cloud platforms</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Junior Software Engineer at NIWC Lant</li>
+                            <li><span>June 2023-August 2023</span><br> Java Developer for the Cyber Workforce Rotation Program</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2023</span><br>Virginia Tech-BIT-Decision Support System(BS)</li>
+                            <li><span>2020-2021</span><br> NVCC-Computer Information Systems(AS)</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>With my Web Design service, I blend creativity with functionality to craft captivating digital experiences tailored to your unique requirements. Drawing upon my extensive expertise in software engineering and user experience design, I create visually stunning and intuitive websites that not only reflect your brand identity but also engage and delight your audience. From concept to execution, I prioritize user-centric design principles and industry best practices to ensure your website is not just aesthetically pleasing but also user-friendly and conversion-optimized. Additionally, I adhere to strict cybersecurity protocols and follow safe cyber practices to safeguard your website against potential threats and vulnerabilities. By implementing robust security measures and staying abreast of the latest security trends, I ensure that your website remains secure and resilient against cyber attacks, providing peace of mind to you and your users. Whether you're looking to establish an online presence, enhance user engagement, or drive business growth, I'll collaborate closely with you to bring your vision to life and deliver a compelling online platform that sets you apart from the competition.</p>
+                    <a href="https://www.wix.com/blog/web-design#:~:text=A%20comprehensive%20guide%201%2001.%20What%20is%20web,7%2007.%20Visual%20elements%20of%20web%20design%20"> Learn More</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Migration and Integration</h2>
+                    <p>Experience seamless transition to cloud-based platforms with expert cloud migration and integration services. I'll assess your current infrastructure, develop a tailored migration strategy, and efficiently transfer your applications, data, and workloads to the cloud. Maximize scalability, flexibility, and performance while minimizing downtime and disruption to your operations.</p>
+                    <a href="https://cloud.google.com/learn/what-is-cloud-computing"> Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Technical Consultation & Advisory</h2>
+                    <p>Through Technical Consulting and Advisory Services, I offer specialized expertise in utilizing advanced analytical techniques, such as linear programming, to address complex business challenges. Leveraging my background in software engineering and practical experience, I help businesses optimize their operations by developing customized solutions to maximize profits, minimize costs, and mitigate risks. Whether it's strategic decision-making, resource allocation, or process optimization, I provide actionable insights and recommendations tailored to your specific objectives and constraints. Additionally, I offer expert guidance and strategic advice on IT-related matters, including technology adoption, infrastructure optimization, cybersecurity strategy, and digital transformation initiatives.</p>
+
+                    <a href="https://ca.indeed.com/career-advice/finding-a-job/technical-advisor#:~:text=A%20technical%20advisor%2C%20or%20technical%20consultant%2C%20assists%20businesses,with%20projects%20when%20they%20lack%20the%20necessary%20expertise."> Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <h2>Software Troubleshooting and IT Support</h2>
+                    <p>Get comprehensive technical support and troubleshooting assistance. Whether you're facing software bugs, compatibility issues, performance slowdowns, or system errors, I'm here to help. With prompt diagnosis, effective problem-solving, and personalized support, I'll ensure smooth operation of your software systems and minimize any disruptions to your workflow.</p>
+
+                    <a href="https://www.techtarget.com/whatis/definition/troubleshooting"> Learn More</a>
+                </div>
+                
+                
+            </div>
+
+        </div>
+    </div>
+    <!---Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Calorie Counter Java Application</h3>
+                        <p>Create and manage your daily calorie budget with ease. Enter your meals and snacks, and track your progress toward your calorie goal. The app dynamically adjusts your remaining calories based on your entries and alerts you if you exceed or fall short of your budget.</p>
+                        <a href="#"><i class="fa-brands fa-js"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>User Registration Form HTML </h3>
+                        <p>Harnessing the power of HTML forms, the app features dropdown menus, radio buttons, and file upload capabilities for seamless data entry. Upon submission, your entries are securely transmitted to the API, ensuring efficient data handling and processing</p>
+                        <a href="#"><i class="fa-brands fa-html5"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Penguin CSS Transforms </h3>
+                        <p>CSS project features a creatively designed penguin crafted entirely using CSS transformations, translations, and colors. The penguin has a playful and friendly appearance, with its arm waving in a welcoming gesture.</p>
+                        <a href="#"><i class="fa-brands fa-css3"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class='btn'>See More</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:brianpope03@vt.edu" class="contact-link"><i class="fa-solid fa-paper-plane"></i>Contact Me Via Email</a>
+                    <p><i class="fa-solid fa-phone"></i>7575107030</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/brian-pope-/"><i class="fa-brands fa-linkedin"></i>LinkedIn Account</a>
+                    </div>
+                    <a href="resume303.pdf" download="BrianPresume.pdf" class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Brian Pope</p>
+        </div>
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+        if (tablink.innerText.trim() === tabname) {
+            tablink.classList.add("active-link");
+        }
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    document.querySelector(`#${tabname}`).classList.add("active-tab");
+    event.currentTarget.classList.add("active-link");
+}
+
+</script> 
+
+
+<script>
+    var sidemenu = document.querySelector("#sidemenu");
+
+    function openmenu() {
+    console.log("Menu opened"); // Add this line to check if the function is being called
+    sidemenu.style.right = '0';
+}
+
+function closemenu() {
+    console.log("Menu closed"); // Add this line to check if the function is being called
+    sidemenu.style.right = '-200px';
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyll9XYWd8YAXN0d6wR8Hc1blQH6UoJAPwFZNtmcoeE17K35VlEJStSG-IFuT8WAzoH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML='Message sent successfully'
+        setTimeout(function(){
+            msg.innerHTML=''
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
